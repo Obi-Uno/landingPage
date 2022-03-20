@@ -7,7 +7,9 @@ gap: 20px;
 }
 a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header{
@@ -18,9 +20,18 @@ a{
     align-items: center;
     
 }
+.headerLogo{
+font-size: 24px;
+color: #F9FAF8;
+font-weight: bold;
+
+
+}
+
+
 div{
-    display: block;
-    border: solid black 2px;
+    /* display: block;
+    border: solid black 2px; */
 }
 .one{
     height: 500px;
@@ -37,9 +48,12 @@ div{
 
 .bh .center{
     display: flex;
-width: 800px;
-height: 250px;
+width: 850px;
+height: 225px;
 
+}
+.left p{
+font-size: 18px;
 }
 
 .right,.left{
@@ -56,13 +70,15 @@ height: 250px;
 }
 .center span{
     font-size: 48px;
-    font-weight: bold;
+    font-weight:bolder;
 }
 .btn{
     background-color: #3882f6;
     color: white;
     border-radius: 25px;
 }
-
+.left{
+    padding-left: 5px;
+}
 
 /* evrything above contains the element of box one */
