@@ -18,7 +18,9 @@ a{
     height: 50px;
     justify-content: space-around;
     align-items: center;
-    
+    padding-left: 170px;
+    padding-right: 170px;
+
 }
 .headerLogo{
 font-size: 24px;
@@ -48,7 +50,7 @@ div{
 
 .bh .center{
     display: flex;
-width: 850px;
+width: 950px;
 height: 225px;
 
 }
@@ -66,7 +68,7 @@ font-size: 18px;
     display : flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(141, 138, 138);
 }
 .center span{
     font-size: 48px;
@@ -76,9 +78,44 @@ font-size: 18px;
     background-color: #3882f6;
     color: white;
     border-radius: 25px;
+    width: 110px;
+    font-size: 18px;
 }
 .left{
     padding-left: 5px;
+    padding-right: 30px;
 }
 
 /* evrything above contains the element of box one */
+/* here the starts the work on the second box */
+
+.s-i{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    display: block;
+    border: solid #3882f6 4px;
+    border-radius: 10px;
+}
+.box-container{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.s-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    height: 300px;
+}
