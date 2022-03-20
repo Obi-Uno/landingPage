@@ -1,0 +1,68 @@
+ul{
+    list-style-type: none;
+display: flex;
+padding: 0;
+margin: 0;
+gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    display:flex;
+    flex: 1;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+div{
+    display: block;
+    border: solid black 2px;
+}
+.one{
+    height: 500px;
+    background-color: #1f2937;
+    color: white;
+}
+.bh{
+    height : 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.bh .center{
+    display: flex;
+width: 800px;
+height: 250px;
+
+}
+
+.right,.left{
+    flex:1;
+}
+.center{
+ width: 600px;   
+}
+.right{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.center span{
+    font-size: 48px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 25px;
+}
+
+
+/* evrything above contains the element of box one */
