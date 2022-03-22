@@ -203,3 +203,13 @@ font-size: 18px;
 p{
     margin: 0;
 }
+/* here starts footer */
+.footer{
+    height: 90px;
+    background-color: #1f2937;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+}
